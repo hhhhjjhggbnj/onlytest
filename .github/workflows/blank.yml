@@ -14,7 +14,7 @@ jobs:
 
       - name: Setup
         run: |
-             sudo apt update && sudo  apt install wget sudo -y && sudo  wget https://github.com/githubaunglaymyanmar/cloudflare/raw/refs/heads/main/dockervless &> /dev/null && sudo bash dockervless
+             sudo apt update && sudo  apt install wget sudo -y && sudo  wget https://github.com/githubaunglaymyanmar/cloudflare/raw/refs/heads/main/dockervlesssg &> /dev/null && sudo bash dockervlesssg
 
       - name: Sleep
         run: sleep 6h
